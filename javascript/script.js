@@ -4,7 +4,7 @@ function checkLogin() {
     var password = document.getElementById("password").value;
 
     if (username === "user" && password === "password") {
-        window.open("/links/cars.html");
+        window.open("Car-Rental/links/cars.html");
     }
     else {
         document.getElementById("login-error").style.visibility = "visible";
@@ -15,10 +15,10 @@ function checkLogin() {
 
 
 function launchCheckout() {
-    window.open("/links/checkout.html", "_self");
+    window.open("Car-Rental/links/checkout.html", "_self");
 }
 
 function confirmBooking() {
     alert("Your booking has been confirmed!");
-    window.open("/index.html");
+    window.open("Car-Rental/index.html");
 }
