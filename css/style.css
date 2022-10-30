@@ -1,0 +1,911 @@
+/************************ TAG SELECTOR ************************/
+
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.fa {
+    text-decoration: none;
+}
+
+/**************************** Home *****************************/
+.top-container {
+    background-color: #B2B2B2;
+    height: 90px;
+}
+
+.navbar img {
+    height: 80px;
+    width: 160px;
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+
+.right-container {
+    width: 75%;
+    float: right;
+    position: relative;
+    top: 15px;
+}
+
+.links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B2B2B2;
+}
+
+.links li {
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 80px;
+    margin: auto 5px;
+}
+
+.links a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    margin: auto 15px;
+    text-decoration: none;
+}
+
+.links a:hover:not(.active) {
+    opacity: 0.7;
+}
+
+.account {
+    float: right;
+}
+
+.searchbar input {
+    border: none;
+    border-radius: 10px;
+    background-color: #EAEAEA;
+    padding: 3px;
+    width: 12rem;
+    position: relative;
+    left: 80px;
+    top: 5px;
+}
+
+.acc-icon {
+    font-size: 1.2rem;
+    margin: auto 6px;
+    position: relative;
+    bottom: 15px;
+    right: 50px;
+}
+
+.fa-user {
+    color: #3C4048;
+}
+
+.fa-shopping-cart {
+    color: #3C4048;
+}
+
+.acc-icon a:hover:not(.active) {
+    opacity: 0.6;
+}
+
+.login-btn {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    position: absolute;
+    top: 34px;
+    right: 100px;
+}
+
+.login-btn:hover:not(.active) {
+    background-color: #D7C0AE;
+}
+
+.signup-btn:hover:not(.active) {
+    background-color: #A77979;
+}
+
+.signup-btn {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    background-color: #472D2D;
+    position: absolute;
+    top: 38px;
+    right: 8px;
+}
+
+.background img {
+    opacity: 0.6;
+    width: 100%;
+}
+
+/*********************** POPULAR **************************/
+
+.popular {
+    position: relative;
+    bottom: 440px;
+    margin-bottom: -45%;
+}
+
+.popular h2 {
+    position: relative;
+    font-size: 36px;
+    padding-right: 700px;
+}
+
+.tesla3 {
+    position: relative;
+    height: 190px;
+    width: 290px;
+    margin: 20px 0;
+}
+
+.hyundai5 {
+    position: relative;
+    height: 190px;
+    width: 300px;
+    margin: 20px;
+}
+
+.skodaiv {
+    position: relative;
+    height: 190px;
+    width: 300px;
+    margin: 20px 0;
+}
+
+.fordmustang {
+    position: relative;
+    height: 190px;
+    width: 290px;
+    margin: 20px 0;
+}
+
+.renaultmegane {
+    position: relative;
+    height: 190px;
+    width: 300px;
+    margin: 20px;
+}
+
+.kiaev6 {
+    position: relative;
+    height: 190px;
+    width: 300px;
+    margin: 20px 0;
+}
+
+/********************** FOOTER BAR ************************/
+
+.footerlogo {
+    position: absolute;
+    left: 25px;
+}
+
+.footerabout {
+    position: absolute;
+    text-align: left;
+    width: 60%;
+    right: 35px; 
+    margin-top: 6px;
+    padding-left: 60px;
+    border-left: 2px solid #E1E5EA;
+}
+
+.bottom-container {
+    background-color: #B2B2B2;
+    margin: auto;
+    height: 125px;
+}
+
+.copyright {
+    font-size: 14px;
+    position: relative;
+    top: 70px;
+    right: 360px;
+}
+
+/********************* LOGIN **********************/
+
+.backgroundlogin {
+    height: 750px;
+    margin: 0;
+}
+
+.backgroundlogin img {
+    opacity: 0.6;
+    width: 100%;
+    height: auto;
+    margin: 120px auto;
+}
+
+.login-container {
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 50%;
+    height: 470px;
+    margin: 50px auto;
+    position: relative;
+    bottom: 680px;
+    background: #EEEEEE;
+}
+
+.login-container label {
+    position: absolute;
+    left: 15%;
+}
+
+.login-container input[type=text], input[type=password] {
+    width: 70%;
+    padding: 10px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#login-error {
+    color: red;
+    font-size: 12px;
+    margin-right: 150px;
+    visibility: hidden;
+}
+
+.forgotpw {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    right: 15%;
+}
+
+.forgotpw:hover:not(.active) {
+    opacity: 0.7;
+}
+
+.login-container button {
+    background-color: #808080;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 60%;
+    position: absolute;
+    cursor: pointer;
+    right: 20%;
+    bottom: 30%;
+}
+
+.login-container button:hover {
+    opacity: 0.8;
+}
+
+.login-container p {
+    position: relative;
+    top: 40px;
+}
+
+.login-container i {
+    position: relative;
+    margin: auto 15px;
+    top: 40px;
+    font-size: 1.8rem;
+}
+
+
+/********** TYPEWRITER *********/
+/*
+.typing-container {
+    --text-color: black;
+    position: relative;
+    bottom: 300px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.typed-text {
+    color: black;
+}
+*/
+
+/*********************** TYPEWRITER ANIMATION ***************************/
+
+.typing-container {
+    padding: 40px; 
+    position: relative;
+    bottom: 530px;
+    left: 150px;
+    width: 60%;
+}
+  
+.typing-container h1 {
+    border-right: 4px solid black;
+    white-space: nowrap;
+    overflow: hidden;    
+    font-size: 4rem;
+    color: black;
+}
+
+.typing-container h1 {
+    animation: animated-text 5s steps(30, end) infinite,
+               animated-cursor 600ms steps(30, end) infinite;
+}
+
+@keyframes animated-text {
+    from {width: 0;}
+    to {width: 475px;}
+}
+  
+@keyframes animated-cursor {
+    from {border-right-color: black;}
+    to {border-right-color: transparent;}
+}
+
+/********************** HOME PAGE AVALIBILITY BAR *********************/
+
+.quickbook {
+    position: relative;
+    bottom: 550px;
+    margin: auto;
+    background: #A2B5BB;
+    opacity: 90%;
+    width: 75%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.pickup-container {
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 20px;
+    right: 50px;
+    width: 150px;
+}
+
+.start-container {
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 5px;
+    right: 40px;
+    width: 150px;
+}
+
+.end-container {
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: 5px;
+    right: 10px;
+    width: 150px;
+}
+
+.quickbook input {
+    padding: 10px;
+    float: left;
+    margin: 10px 0;
+    width: 100%;
+    height: 27px;
+    font-size: 16px;
+}
+
+.quickbook select {
+    padding: 10px;
+    float: left;
+    margin: 10px 0;
+    width: 110%;
+    height: 50px;
+    font-size: 16px;
+}
+
+.quickbook label {
+    float: left;
+    margin: 10px auto;
+    font-weight: 600;
+    font-size: large;
+}
+
+.quickbook form {
+    position: relative;
+    top: 25px;
+}
+
+.quickbook i {
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+
+/************************ CHECKOUT **************************/
+
+.checkout-container {
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    position: relative;
+    width: 95%;
+    height: 770px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.topcart {
+    width: auto;
+}
+
+.checkout-container label {
+    font-size: 18px;
+}
+
+.icon-container i {
+    font-size: 2rem;
+    margin: 8px 8px 8px 0;
+}
+
+#expmonth {
+    width: 30%;
+}
+
+#expyear {
+    position: absolute;
+    width: 30%;
+}
+
+.expslash {
+    font-size: 20px;
+    margin: auto 10px;
+}
+
+.checkout-container input {
+    margin: 10px 0;
+    width: 70%;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.billing {
+    width: 50%;
+    text-align: left;
+    position: absolute;
+    margin: 0 50px;
+}
+
+.payment {
+    width: 50%;
+    text-align: left;
+    position: absolute;
+    left: 520px;
+}
+
+.cart {
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    height: 40%;
+    bottom: 50px;
+    text-align: left;
+}
+
+.pickupdetails {
+    width: auto;
+    position: absolute;
+}
+
+.dropoffdetails {
+    width: auto;
+    position: absolute;
+    left: 180px;
+}
+
+.dummycart1 {
+    position: absolute;
+    width: 50%;
+    bottom: 25%;
+    left: 7%;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.dummyimg {
+    height: 120px;
+    margin: 20px 0;
+}
+
+.summary {
+    position: relative;
+    left: 70%;
+    top: 30%;
+    line-height: 30px;
+    width: 50%;
+}
+
+.summary p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.summary span {
+    float: right;
+}
+
+.proceedcheckout {
+    background-color: #77D970;
+    padding: 14px 145px;
+    font-size: 18px;
+    font-weight: bolder;
+    float: right;
+    margin: 35px 0;
+    border: none;
+}
+
+.proceedcheckout:hover {
+    background-color: #D5EEBB;
+    cursor: pointer;
+}
+
+/********************** CONTACT *****************/
+
+.contactcs {
+    height: 500px;
+}
+
+.contactcs img {
+    opacity: 0.7;
+    height: 500px;
+    width: 110%;
+    object-fit: cover;
+}
+
+.contactcs h1 {
+    position: relative;
+    bottom: 350px;
+    font-size: 50px;
+}
+
+.bottom-contact {
+    position: relative;
+    height: 296px;
+}
+
+.hqmap img {
+    height: 310px;
+    position: relative;
+    float: left;
+}
+
+.getintouch {
+    height: 250px;
+    position: absolute;
+    text-align: left;
+    line-height: 40px;
+    width: 250px;
+    margin: auto;
+    padding: 40px 20px 20px;
+    left: 310px;
+}
+
+.getintouch a {
+    text-decoration: none;
+}
+
+.enquiry {
+    height: 265px;
+    position: absolute;
+    text-align: left;
+    line-height: 30px;
+    width: 305px;
+    margin: auto;
+    right: 0;
+    padding: 40px 20px 5px 10px;
+    background-color: #F3F1F5;
+}
+
+.enquiry form {
+    margin-top: 35px;
+}
+
+.enquiry input {
+    width: 30%;
+}
+
+.enquiry input::placeholder {
+    text-align: center;
+}
+
+.enquiry button {
+    float: right;
+    padding: 2px 15px;
+    margin-right: 10px;
+}
+
+/********************** INFO *********************/
+
+.infoheader {
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    top: 23.5%;
+}
+
+.infoheader h1 {
+    font-size: 56px;
+}
+
+.whitebg {
+    background-color: #FAF3F3;
+    height: 210px;
+}
+
+.greybluebg {
+    background-color: #E1E5EA;
+    height: 840px;
+    padding: 80px 0;
+    margin-bottom: -15px;
+}
+
+.greybluebg img {
+    width: 20%;
+}
+
+.greybluebg div {
+    height: 120px;
+    margin-top: 5%;
+}
+
+.reserve {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.reserve p {
+    padding: 10px 0;
+}
+
+.reserve img {
+    float: left;
+    margin-right: 30px;
+}
+
+.office {
+    width: 60%;
+    margin: auto;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.office img {
+    float: right;
+    margin-left: 30px;
+}
+
+.office p {
+    padding: 35px 0;
+}
+
+.carpark {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.carpark img {
+    float: left;
+    margin-right: 30px;
+}
+
+.carpark p {
+    padding: 35px 0;
+}
+
+.inspect {
+    width: 60%;
+    margin: auto;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.inspect img {
+    float: right;
+    margin-left: 30px;
+}
+
+.inspect p {
+    padding: 10px 0;
+}
+
+.paymentinfo {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.paymentinfo img {
+    float: left;
+    margin-right: 30px;
+}
+
+.paymentinfo p {
+    padding: 22px 0;
+}
+
+/*************************** CARS ************************/
+
+#filterbar {
+    border: none;
+    background-color: #EDEDED;
+    width: 75%;
+    height: 50px;
+    margin: 20px auto;
+}
+
+#sort {
+    float: right;
+    height: 25px;
+    width: auto;
+    margin: 4px;
+    padding: 8px;
+}
+
+#sort label {
+    font-size: 14px;
+    margin: auto 5px;
+}
+
+#sort select {
+    border: none;
+    padding: 5px;
+}
+
+#seater {
+    float: left;
+    height: 25px;
+    width: auto;
+    margin: 4px 0;
+    padding: 8px;
+}
+
+#seater button {
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    height: 28px;
+    margin: 0 8px 5px;
+    padding: 5px 18px;
+}
+
+.listing-container img {
+    width: 35%;
+    padding: 20px;
+    float: left;
+}
+
+.listing-container h3 {
+    margin: 35px 20px;
+    float: left;
+}
+
+.listing-container div {
+    border: 1px solid #EDEDED;
+    width: 75%;
+    height: 250px;
+    margin: 20px auto;
+}
+
+.listing-container table {
+    width: 55%;
+    margin: auto;
+    text-align: left;
+    position: relative;
+    bottom: 5%;;
+}
+
+.listing-container td {
+    width: 50%;
+    padding: 6px;
+}
+
+.listing-container i {
+    margin-right: 10px;
+}
+
+.listing-container hr {
+    border: 1px solid #EDEDED;
+    width: 90%;
+    margin-top: 22px;
+}
+
+.listing-container p {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    right: 270px;
+    width: 15%;
+    height: 20px;
+    margin: auto 45px;
+    padding: 10px 40px;
+    left: 25%;
+    top: 5%;
+}
+
+.listing-container span {
+    float: right;
+    font-size: 22px;
+    font-weight: 600; 
+    position: relative;
+    bottom: 8px;
+    margin-left: 10px;
+}
+
+.listing-container button {
+    padding: 10px 50px;
+    float: right;
+    margin: 3px 45px;
+    background-color: #1746A2;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.listing-container button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/*************************** ABOUT ************************/
+
+.skylinebg img {
+    width: 100%;
+    height: 300px;
+    filter: blur(0.8px);
+}
+
+.aboutazoom {
+    position: relative;
+    height: 100px;
+    margin-top: -5px;
+    background-color: #EDEDED;
+}
+
+.aboutazoom h1 {
+    text-align: left;
+    padding: 15px;
+    position: absolute;
+    top: 6px;
+    left: 90px;
+}
+
+.aboutbody {
+    width: 70%;
+    margin: 80px auto;
+    text-align: left;
+    line-height: 30px;
+    font-size: 18px;
+}
