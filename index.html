@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZoom Car Rental</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/e0e50eb97c.js" crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+    
+</head>
+<body>
+    <div class="top-container">
+        <div class="navbar">
+            <img src="images/logo.png">
+            <div class="right-container">
+                <div class="topbar">
+                    <div class="searchbar">
+                        <input type="text" placeholder=" &#xf002; Search" style="font-family:Arial, FontAwesome" />
+                    </div>
+                    <div class="account">
+                        <span class="acc-icon">
+                            <a href="links/login.html" class="fa-solid fa-user"></a>
+                        </span>
+                        <span class="acc-icon">
+                            <a href="links/checkout.html" class="fas fa-shopping-cart"></a>
+                        </span>
+                    </div>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="links/aboutus.html">About Us</a></li>
+                        <li><a href="links/cars.html">Cars</a></li>
+                        <li><a href="links/info.html">Info</a></li>   
+                        <li><a href="links/contact.html">Contact</a></li>                   
+                    </ul>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div class="background">
+        <img src="https://www.zdnet.com/a/img/resize/ffaf5f5ca53dfa037d63e0f17744db3db8fc31be/2021/10/04/5771937c-fda0-4798-9f12-8ef086bddf5b/commercialcharging-hero-desktop.jpg?auto=webp&width=1200"
+            alt="electric car">
+        <div class="myContainer">
+            <div class="typing-container">
+                <h1>Rent a car today!</h1>
+            </div>
+            <div class="quickbook">
+                <form>
+                    <div class="pickup-container">
+                        <label for="pickuploc">Pick-up Location</label><br>
+                        <select class="left" name="location">
+                            <option value="branch1">Branch 1</option>
+                            <option value="branch2">Branch 2</option>
+                        </select>
+                    </div>
+                    <div class="start-container">
+                        <label for="start">Start</label><br>
+                        <input class="left" type="date"></input>
+                    </div>
+                    <div class="end-container">
+                        <label for="end">End</label><br>
+                        <input class="left" type="date"></input>
+                    </div>   
+                    <i class="fa-solid fa-magnifying-glass" style="font-size:22px"></i>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popular">
+        <h2>Just Viewed</h2>
+        <img class="tesla3" src="/images/tesla3.webp" alt="Tesla Model 3">
+        <img class="hyundai5" src="/images/4_1.webp" alt="Hyundai Ioniq 5">
+        <img class="skodaiv" src="/images/skoda.webp" alt="Skoda Enyaq iV">
+        <img class="fordmustang" src="/images/fordmustang.webp" alt="Ford Mustang Mach-E">
+        <img class="renaultmegane" src="/images/renaultmegane.webp" alt="Renault Megane E-Tech">
+        <img class="kiaev6" src="/images/kiaev6.webp" alt="Kia EV6">
+    </div>
+    <div class="bottom-container">
+        <div>
+            <div class="footerlogo">
+                <h2>AZoom Car Rental</h2>
+            </div>
+            <div class="footerabout">
+                <p>AZoom Car Rental is a local car rental company that specializes in renting electric car 
+                    for the public. There is a range of electric cars available and for the environmental 
+                    conscious customers, AZoom Car Rental offers an attractive option for transportation.</p>
+            </div>
+            <div class="copyright">
+                <p>Privacy Policy | Terms of Service<br>© 2022 AZoom Car Rental</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
